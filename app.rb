@@ -1,11 +1,9 @@
-require_relative "thermostaat.rb"
+require_relative 'thermostaat.rb'
 
-foo = Thermostaat.new
+main = Thermostaat.new
+read = Input.new
 
-foo.ask_temperature
-foo.get_temperature
-foo.ask_max
-foo.get_max
-foo.ask_min
-foo.get_min
-foo.temperatuur
+
+
+read.download
+change.compare(1,20)
