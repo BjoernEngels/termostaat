@@ -2,7 +2,8 @@ class Thermostaat
 
     require_relative 'thermostaat.rb'
     require_relative 'input.rb'
-
+    require_relative 'proces.rb'
+    
     require 'open-uri'
 
     def geef_temperatuur
