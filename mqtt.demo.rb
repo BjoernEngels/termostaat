@@ -1,4 +1,5 @@
 require "mqtt"
+require "json"
 
 temperature_topic = 'softwareengineering/temperature/+'
 # Subscribe example
