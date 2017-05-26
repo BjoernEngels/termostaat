@@ -1,4 +1,3 @@
-require_relative 'thermostaat.rb'
 require_relative "thermostaat.rb"
 
 foo = Thermostaat.new
